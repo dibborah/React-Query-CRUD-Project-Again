@@ -1,7 +1,12 @@
 import React from "react";
+import PostForm from "../components/PostForm";
 
 const EditPost = () => {
-  return <div>EditPost</div>;
+  return (
+    <div>
+      <PostForm />
+    </div>
+  );
 };
 
 export default EditPost;
